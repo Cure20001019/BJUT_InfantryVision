@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<Debug>1</Debug>
+<Display_Image>1</Display_Image>
+<Display_Pose>1</Display_Pose>
+<Display_Recognition_Rate>0</Display_Recognition_Rate>
+
+<Distance_Conpensate>130</Distance_Conpensate>
+<Pitch_Conpensate>-50</Pitch_Conpensate>
+<Camera_Center_x>773.40</Camera_Center_x>
+<Camera_Center_y>583.36</Camera_Center_y>
+<Thres_Red>80</Thres_Red>
+<Thres_Blue>80</Thres_Blue>
+<Thres_Gray>100</Thres_Gray>
+<Blue_H_Thres>80</Blue_H_Thres>
+<Red_H_Thres>80</Red_H_Thres>
+<S_Thres>150</S_Thres>
+<V_Thres>100</V_Thres>
+</opencv_storage>

@@ -1,0 +1,29 @@
+//备用相机
+	CameraMatrix = Mat::eye(3, 3, CV_64F);
+	CameraMatrix.at<double>(0, 0) = 1.129461050121303e+03;
+	CameraMatrix.at<double>(0, 1) = -0.481335121794043;
+	CameraMatrix.at<double>(0, 2) = 7.743116073843274e+02;
+	CameraMatrix.at<double>(1, 1) = 1.129264367325461e+03;
+	CameraMatrix.at<double>(1, 2) = 5.858014536275374e+02;
+	CameraMatrix.at<double>(2, 2) = 1;
+	DisCoeffs = Mat::zeros(5, 1, CV_64F);
+	DisCoeffs.at<double>(0, 0) = -0.132058474322626;
+	DisCoeffs.at<double>(1, 0) = 0.173954317187206;
+	DisCoeffs.at<double>(2, 0) = 3.265238120575475e-04;
+	DisCoeffs.at<double>(3, 0) = 3.574007892417154e-04;
+	DisCoeffs.at<double>(4, 0) = 0;
+
+//当前相机
+	CameraMatrix = Mat::eye(3, 3, CV_64F);
+	CameraMatrix.at<double>(0, 0) = 1.122113840682446e+03;
+	CameraMatrix.at<double>(0, 1) = -0.296643046056397;
+	CameraMatrix.at<double>(0, 2) = 7.678046909547153e+02;
+	CameraMatrix.at<double>(1, 1) = 1.121902098666267e+03;
+	CameraMatrix.at<double>(1, 2) = 5.845519541011453e+02;
+	CameraMatrix.at<double>(2, 2) = 1;
+	DisCoeffs = Mat::zeros(5, 1, CV_64F);
+	DisCoeffs.at<double>(0, 0) = -0.130956448356576;
+	DisCoeffs.at<double>(1, 0) = 0.176538653804321;
+	DisCoeffs.at<double>(2, 0) = 4.223848273384413e-05;
+	DisCoeffs.at<double>(3, 0) = -5.960455330557090e-06;
+	DisCoeffs.at<double>(4, 0) = 0;
